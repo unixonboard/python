@@ -1,0 +1,6 @@
+Customizing Bash
+We'll customize our bash prompt by downloading a bashrc file from our content repository and placing it our /home/anon directory. This command will download the file, rename it, and place it in the proper directory:
+$ curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/bashrc -o ~/.bashrc
+Customizing Vim
+Like we did with the bashrc, we'll customize Vim by downloading a vimrc file with this command: 
+$ curl https://raw.githubusercontent.com/linuxacademy/content-python3-sysadmin/master/helpers/vimrc -o ~/.vimrc
